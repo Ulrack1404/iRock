@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="Windows-1251">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iRock</title>
+  <script>
+  function touchRock() {
+    let userName = prompt("Kak Bac 3oByT?");
+    
+    if (userName) {
+      alert("Pad Bac Budet, "  + userName + ".");
+      document.getElementById("rockImg").src = "https://img2.freepng.ru/20180601/kfo/kisspng-smiley-emoticon-world-smile-day-sticker-wink-happy-face-5b110586d3c953.1819317715278421828675.jpg"; 
+    }
+  }
+  </script>
+</head>
+<body onload = "alert('Привет, меня зовут смайлик. Нажмите на меня!');">
+  <div style="margin: 100px auto 0;
+              width: 200px;
+              height: 200px;
+                                        
+">
+    <img id = "rockImg" src="https://img2.freepng.ru/20180410/gje/kisspng-smiley-emoticon-wikipedia-clip-art-plain-5acc44f714ecf8.4928798515233364390857.jpg" 
+          style="height: 100%;
+                 width: 100%"
+          alt="iRock_1" 
+          style="cursor: pointer"
+          onclick = "touchRock()"/>
+  </div>  
+  
+</body>
+  
+</html> 
